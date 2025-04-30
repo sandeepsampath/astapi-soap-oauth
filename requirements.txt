@@ -5,3 +5,4 @@ uvicorn
 gunicorn
 authlib
 python-dotenv
+httpx
