@@ -84,3 +84,7 @@ async def soap_endpoint(request: Request, authorization: str = Header(None)):
     </soap:Envelope>"""
 
     return Response(content=soap_response, media_type="application/soap+xml")
+
+@app.get("/")
+def root():
+    return {"message": "API is running. Use /docs or POST to /soap"}
