@@ -1,0 +1,6 @@
+fastapi
+jwt
+jose
+uvicorn
+authlib
+dotenv
