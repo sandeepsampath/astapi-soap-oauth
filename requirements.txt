@@ -1,6 +1,7 @@
 fastapi
 jwt
-jose
+python-jose
 uvicorn
+gunicorn
 authlib
-dotenv
+python-dotenv
